@@ -20,7 +20,7 @@ public class Data extends AppCompatActivity {
     Database db;
     Security sec;
     LinearLayout CL;
-    String key, user;
+    String key, user="";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class Data extends AppCompatActivity {
             }
         });
         CL.addView(btn_add);
-        Cursor data = db.selectAllData();
+        Cursor data = db.selectAllData(user);
         if (data.getCount() == 0) {
             TextView txt_result = new TextView(this);
             txt_result.setText("Data not Found please Add Data");

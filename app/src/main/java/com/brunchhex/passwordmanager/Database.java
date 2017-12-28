@@ -100,10 +100,10 @@ public class Database extends SQLiteOpenHelper  {
         res=db.rawQuery("select id,username,website from tbl_data",null);
         return res;
     }
-    public Cursor selectAllData(){
+    public Cursor selectAllData(String Username){
         SQLiteDatabase db=this.getWritableDatabase();
         Cursor res=null;
-        res=db.rawQuery("select * from tbl_data",null);
+        res=db.rawQuery("select * from tbl_data where user='"+Username+"'",null);
         return res;
     }
     public Cursor selectFullData(String id){
