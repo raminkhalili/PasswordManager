@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">مدیریت کلمه عبور</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">کلمه عبور</string>
+    <string name="key">کلید رمز</string>
+    <string name="login">ورود</string>
+    <string name="register">ثبت نام</string>
+    <string name="about">درباره</string>
+    <string name="programmers">برنامه نویس :</string>
+    <string name="designer">طراح :</string>
+    <string name="translate">مترجم :</string>
+    <string name="email">ایمیل</string>
+    <string name="phone">تلفن</string>
+    <string name="website">وب سایت</string>
+    <string name="save">ذخیره</string>
+    <string name="username_length">نام کاربری باید بین 4 تا 16 کاراکتر باشد.</string>
+    <string name="password_length">کلمه عبور باید بین 8 تا 32 کاراکتر باشد.</string>
+    <string name="key_length">کلید باید بین 4 تا 32 کاراکتر باشد.</string>
+    <string name="problem_encrypt_password">در رمزنگاری کلمه عبور مشکلی رخ داده است.</string>
+    <string name="again">لطفاْ مجدداْ تلاش کنید.</string>
+    <string name="username_exists">نام کاربری موجود است.</string>
+    <string name="database_problem">در پایگاه داده اشکالی رخ داد.</string>
+    <string name="successful_register">ثبت نام با موفقیت انجام شد.</string>
+    <string name="hello">سلام</string>
+    <string name="please_login">لطفاْ وارد شوید.</string>
+    <string name="ok">خُب</string>
+    <string name="problem_process">عملیات ناموفق </string>
+    <string name="login_successful">ورود با موفقیت</string>
+    <string name="login_fail">ورود با مشکل مواجه شد</string>
+    <string name="success_add_data">داده با موفقیت افزوده شد.</string>
+    <string name="fail_add_data">در افزودن داده مشکلی رخ داد.</string>
+    <string name="show_password">نمایش کلمه عبور</string>
+    <string name="your_password">کلمه عبور شما</string>
+    <string name="developers_version">توسعه دهندگان این نسخه</string>
+    <string name="data_notfound">داده ای یافت نشد.</string>
+    <string name="search">جستوجو</string>
+    <string name="search_email">جستوجو بر اساس ایمیل</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Persian</item>
+        <item>Kurdi</item>
+    </string-array>
+
+
+
+
+
+    <string name="about_web">
+        آموزش برنامه نویسی و توسعه برنامه های برانچ هگز\n
+        <a href="www.Brunchhex.com">www.Brunchhex.com</a>
+    </string>
+
+    <string name="about_developers">
+        برنامه نویسی و طراحی :
+         رامین خلیلی \n
+        ترجمه به زبان انگلیسی :
+        محسن مرادی \n
+        ترجمه به زبان کوردی :
+        میلاد محمودنژاد \n
+    </string>
+    <string name="about_text">
+        این برنامه به شما این امکان را می دهد که رمز عبور های شبکه اجتماعی خود را به صورت رمزنگاری و کلید رمزی در دستان خود ذخیره کنید.\n
+        یکی از مزیت های برنامه این است که دیگر لازم نیست رمز عبور های زیادی را به خاطر بسپارید.\n
+        اطلاعات شما به صورت رمز نگاری ذخیره می شود و این برنامه احتیاجی به مجوز دسترسی ندارد.\n
+        این برنامه به صورت سورس باز می باشد و کد های برنامه را می توانید در گیت هاب ببینید و اگر توسعه دهنده هستید به توسعه آن بپردازید.\n
+        <a href="www.github.com/Raminkhalili/PasswordManager">www.github.com/Raminkhalili/PasswordManager</a>\n
+    </string>
+</resources>

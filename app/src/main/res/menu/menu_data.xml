@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_new_data"
+        android:title="Add"
+        android:icon="@drawable/icon_add_data"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search_in_data"
+        android:title="Search"
+        android:icon="@drawable/icon_search_data"
+        app:showAsAction="always"/>
+</menu>

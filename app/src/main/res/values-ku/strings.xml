@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">بەڕێوەبردنی وشەی نهێنی</string>
+    <string name="username">ناوی بەکارهێنەر</string>
+    <string name="password">وشەی نهێنی</string>
+    <string name="key">کلیلی وشەی نهێنی</string>
+    <string name="login">چوونەژوورەوە</string>
+    <string name="register">خۆتۆمار کردن</string>
+    <string name="about">دەربارە</string>
+    <string name="programmers">بەرنامەنووس :</string>
+    <string name="designer">داڕشتن :</string>
+    <string name="translate">وەرگێڕ :</string>
+    <string name="email">ئیمێل</string>
+    <string name="phone">تەلەفۆن</string>
+    <string name="website">ماڵپەڕ</string>
+    <string name="save">پاشەکەوت</string>
+    <string name="username_length">ناوی بەکارهێنەر دەبێت لە نێوان 4 هەتا 16 نووسەدا بێت</string>
+    <string name="password_length">وشەی نهێنی دەبێت لە نێوان 8 هەتا 32 نووسەدا بێت</string>
+    <string name="key_length">کلیل دەبێت لە نێوان4 هەتا 32 نووسەدا بێت </string>
+    <string name="problem_encrypt_password">لە بەنهێنی کردنی وشەی نهێنیدا کێشەیەک ڕووی داوە</string>
+    <string name="again">تکایە دیسان هەوڵ بدە</string>
+    <string name="username_exists">ناوی بەکارهێنەر پێشترهەیە</string>
+    <string name="database_problem">لە بنکەدراوەدا کێشەیەک ڕووی داوە</string>
+    <string name="successful_register">خۆتۆمارکردن سەرکەوتوو بوو</string>
+    <string name="hello">سڵاو</string>
+    <string name="please_login">تکایە بچۆ ژوورەوە</string>
+    <string name="ok">زۆر باشە</string>
+    <string name="problem_process">پرۆسەی ناسەرکەوتوو </string>
+    <string name="login_successful">چوونەژوورەوە بە سەرکەوتوویی</string>
+    <string name="login_fail">لە چوونەژوورەوەدا کێشە هەیە</string>
+    <string name="success_add_data">دەیتا بەسەرکەوتوویی زێدە کرا</string>
+    <string name="fail_add_data">لە زێدەکردنی دەیتاکەدا کێشەیەک هەیە</string>
+    <string name="show_password">نیشاندانی وشەی نهێنی</string>
+    <string name="your_password">وشەی نهێنی ئێوە</string>
+    <string name="developers_version">دێڤێلۆپێرەکانی ئەم وەشانە</string>
+    <string name="data_notfound">دەیتایەک پەیدا نەکرا</string>
+    <string name="search">گەڕان</string>
+    <string name="search_email">گەڕان بە گوێرەی ئیمێل</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Persian</item>
+        <item>Kurdi</item>
+    </string-array>
+
+
+
+
+
+    <string name="about_web">
+        فێرکاریی بەرنامەنووسیی بەرنامەکانی فرێنچ هێگز\n
+        <a href="www.Brunchhex.com">www.Brunchhex.com</a>
+    </string>
+
+    <string name="about_developers">
+        :بەرنامەنووسی و داڕشتن
+         رامین خلیلی \n
+        وەرگێڕان بە ئینگلیزی:
+        محسن مرادی \n
+        وەرگێڕان بە کوردی:
+        میلاد محمودنژاد \n
+    </string>
+    <string name="about_text">
+        ئەم بەرنامە، ئەو ئیمکانە بە ئێوە دەدات کە، وشەی نهێنی تۆڕەکۆمەڵایەتییەکانتان بە نهێنی و کۆدی بکەن، و کلیلێک بۆ وشەی نهێنییەکەتان پاشەکەوت بکەن.\n
+        یەکێک لە سوودەکانی ئەم بەرنامەیە، ئەوەیە کە ئیتر پێویست ناکات، چەندین وشەی نهێنی جۆربەجۆری خۆتان لەبەر بکەن\n
+        زانیارییەکانتان بە شێوەی نهێنی کردن و کۆد پاشەکەوت دەکرێن و ئەم بەرنامەیە پێویستی بە هیچ چەشنە ڕێپێدانێک نییە\n
+        ئەم بەرنامەیە بە شێوەی ئۆپێن سۆرسە ودەتوانن کۆدەکانی لە گیت هابدا ببینن، ئەگەر دێڤێلۆپێرن پەرەی پێ بدەن\n
+        <a href="www.github.com/Raminkhalili/PasswordManager">www.github.com/Raminkhalili/PasswordManager</a>\n
+    </string>
+</resources>

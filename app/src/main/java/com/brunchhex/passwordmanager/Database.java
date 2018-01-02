@@ -106,10 +106,10 @@ public class Database extends SQLiteOpenHelper  {
         res=db.rawQuery("select * from tbl_data where user='"+Username+"'",null);
         return res;
     }
-    public Cursor selectFullData(String id){
+    public Cursor searchByEmail(String email){
         SQLiteDatabase db=this.getWritableDatabase();
         Cursor res;
-        res=db.rawQuery("select * from tbl_data where id='?'",new String[]{id});
+        res=db.rawQuery("select * from tbl_data where email='"+email+"'",null);
         return res;
     }
 

@@ -6,63 +6,41 @@
     android:layout_height="match_parent"
     android:padding="15dp"
     tools:context="com.brunchhex.passwordmanager.MainActivity">
-
-
-    <EditText
-        android:id="@+id/txt_username"
-        android:layout_width="0dp"
+    <android.support.design.widget.TextInputLayout
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:ems="10"
-        android:hint="Username"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/txt_password"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/txtil_username">
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/username"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_username" />
-
-    <EditText
-        android:id="@+id/txt_key"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/txtil_password"
+        app:layout_constraintTop_toBottomOf="@+id/txtil_username">
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="Key"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_password" />
-
-    <CheckBox
-        android:id="@+id/chk_savepassword"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="8dp"
-        android:enabled="false"
-        android:text="Save Password"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_key" />
-
+        android:layout_width="match_parent"
+        android:id="@+id/txtil_key"
+        app:layout_constraintTop_toBottomOf="@+id/txtil_password">
+        <EditText
+            android:id="@+id/txt_key"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/key"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:id="@+id/btn_login"
         android:layout_width="0dp"
@@ -70,11 +48,10 @@
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
-        android:text="Login"
+        android:text="@string/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chk_savepassword" />
-
+        app:layout_constraintTop_toBottomOf="@+id/txtil_key" />
     <Button
         android:id="@+id/btn_register"
         android:layout_width="0dp"
@@ -82,11 +59,10 @@
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
-        android:text="Register"
+        android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_login" />
-
     <Button
         android:id="@+id/btn_about"
         android:layout_width="0dp"
@@ -94,10 +70,17 @@
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
-        android:text="About"
+        android:text="@string/about"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+    <Spinner
+        android:id="@+id/spn_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/languages"
+        app:layout_constraintBottom_toBottomOf="parent" />
 </android.support.constraint.ConstraintLayout>
 
 
