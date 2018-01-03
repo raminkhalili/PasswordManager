@@ -35,7 +35,11 @@
     <string name="data_notfound">No data found.</string>
     <string name="search">Search</string>
     <string name="search_email">Search by email</string>
-
+    <string-array name="languages">
+        <item>English</item>
+        <item>Persian</item>
+        <item>Kurdi</item>
+    </string-array>
 
 
 
