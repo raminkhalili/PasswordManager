@@ -1,69 +1,63 @@
 <resources>
-    <string name="app_name">Password Manager</string>
+    <string name="app_name">Manage password</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="key">Key</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="about">About</string>
-    <string name="programmers">Programmer :</string>
-    <string name="designer">Designer :</string>
-    <string name="translate">Translate :</string>
+    <string name="key">Key word</string>
+    <string name="login">Log in </string>
+    <string name="register">Sign up</string>
+    <string name="about">Again</string>
+    <string name="programmers">Programmer:</string>
+    <string name="designer">Designer:</string>
+    <string name="translate">Translator:</string>
     <string name="email">Email</string>
-    <string name="phone">Phone</string>
-    <string name="website">Website</string>
+    <string name="phone">Phone Number</string>
+    <string name="website">Web site</string>
     <string name="save">save</string>
-    <string name="username_length">username must between 4-16 characters.</string>
-    <string name="password_length">password must between 8-32 characters.</string>
-    <string name="key_length">key must between 4-32 characters.</string>
-    <string name="problem_encrypt_password">crashed encrypt password</string>
-    <string name="again">please try again</string>
-    <string name="username_exists">username exists.</string>
-    <string name="database_problem">crashed in database</string>
-    <string name="successful_register">Register successful.</string>
-    <string name="hello">Hello</string>
-    <string name="please_login">please login.</string>
+    <string name="username_length">Username must contain 4 to 16 characters.</string>
+    <string name="password_length">password must contain 8 to 32 characters.</string>
+    <string name="key_length">Key must contain 4 to 32 characters.</string>
+    <string name="problem_encrypt_password">Something wrong with encrypting your password.</string>
+    <string name="again">Please try again.</string>
+    <string name="username_exists">Username already taken.</string>
+    <string name="database_problem">Error, something wrong in database.</string>
+    <string name="successful_register"> You have signed up successfully.</string>
+    <string name="hello">Hi</string>
+    <string name="please_login">Please log in.</string>
     <string name="ok">OK</string>
-    <string name="problem_process">crashed process</string>
-    <string name="login_successful">login successful</string>
-    <string name="login_fail">crashed login</string>
-    <string name="success_add_data">successful added data.</string>
-    <string name="fail_add_data">crashed in added data.</string>
-    <string name="show_password">show password</string>
-    <string name="your_password">your password</string>
-    <string name="developers_version">current developers :</string>
-    <string name="data_notfound">data not found.</string>
-    <string name="search">search</string>
-    <string name="search_email">search by email</string>
-    <string-array name="languages">
-        <item>English</item>
-        <item>Persian</item>
-        <item>Kurdi</item>
-    </string-array>
+    <string name="problem_process">Unsuccessful operation </string>
+    <string name="login_successful">Successfully log in</string>
+    <string name="login_fail">Log in failed</string>
+    <string name="success_add_data">Data added successfully.</string>
+    <string name="fail_add_data">There was a problem with adding data.</string>
+    <string name="show_password">Show password</string>
+    <string name="your_password">Your password</string>
+    <string name="developers_version">Edition developers</string>
+    <string name="data_notfound">No data found.</string>
+    <string name="search">Search</string>
+    <string name="search_email">Search by email</string>
 
 
 
 
 
 
-    <string name="about_web">
-        آموزش برنامه نویسی و توسعه برنامه های برانچ هگز\n
+    <string name="about_web">Learn programming and developing Brunch hex programs \n
         <a href="www.Brunchhex.com">www.Brunchhex.com</a>
     </string>
 
     <string name="about_developers">
-        برنامه نویسی و طراحی :
-         رامین خلیلی \n
-        ترجمه به زبان انگلیسی :
-        محسن مرادی \n
-        ترجمه به زبان کوردی :
-        میلاد محمودنژاد \n
+        Developing and designing :
+         Ramin Khalili \n
+        Translate to English:
+        Mohsen Moradi \n
+        Translate to Kurdish:
+        Milad MahmodNezhad \n
     </string>
     <string name="about_text">
-        این برنامه به شما این امکان را می دهد که رمز عبور های شبکه اجتماعی خود را به صورت رمزنگاری و کلید رمزی در دستان خود ذخیره کنید.\n
-        یکی از مزیت های برنامه این است که دیگر لازم نیست رمز عبور های زیادی را به خاطر بسپارید.\n
-        اطلاعات شما به صورت رمز نگاری ذخیره می شود و این برنامه احتیاجی به مجوز دسترسی ندارد.\n
-        این برنامه به صورت سورس باز می باشد و کد های برنامه را می توانید در گیت هاب ببینید و اگر توسعه دهنده هستید به توسعه آن بپردازید.\n
+        This program will allow you to save your social network passwords in the form of encryption and encrypted keys in your hands.\n
+        The Think is you don\'t need to remember all your passwords .\n
+        Your data is stored in  encrypted and this app does not need access permission\n
+       This app is open source so if you are a developer and would like to develop and make our app better you can clone our code in GitHub \n
         <a href="www.github.com/Raminkhalili/PasswordManager">www.github.com/Raminkhalili/PasswordManager</a>\n
     </string>
 </resources>
